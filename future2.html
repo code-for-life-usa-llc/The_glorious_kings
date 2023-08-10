@@ -28,8 +28,10 @@
       padding: 0;
       overflow: hidden;
       background-color: #333;
-      position: relative;
-      bottom: 16px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100vw;
     }
 
     li {
@@ -50,6 +52,9 @@
 
     p {
       color: beige;
+      font-size: 180%;
+      line-height: 150%;
+      margin: 5vh 10vw;
     }
 
 
@@ -62,6 +67,9 @@
 .content{
     height: 860px;
     height: 50%; 
+    width: 105vw;
+    position: relative;
+    left: -2vw;
     background-image: url(img1.jpg);  
     background-attachment: fixed;
     background-size: cover;
@@ -109,7 +117,16 @@
     
 }
 
+  #extraimage{
+    background-image: url(https://wallpaperaccess.com/full/1303151.jpg);  
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
+    width: 100vw;
+    height: 50vh;
+  }
   </style>
 </head>
 
@@ -140,6 +157,10 @@
       around us. Augmented reality projects digital information into the real world, allowing us to see things that
       would normally be invisible to the naked eye, while virtual reality creates entirely new virtual worlds that we
       can explore and interact with.</p>
+
+      <div id="extraimage"></div>
+
+
     <p>
       Understanding the future of technology is important because technology has become an integral part of our lives.
       We rely on technology for communication, entertainment, finance, healthcare, and more. As technology continues to
@@ -167,4 +188,5 @@
     <p>In conclusion, understanding the future of technology is important because it has a significant impact on our
       lives and our future. As technology continues to advance, it will shape the way we live, work, and interact with
       the world, and it is important that we are prepared for what's to come.</p>
+      <br>
   </div>

@@ -4,6 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Present</title>
+    <style>
+      body {
+        text-decoration-color: red;
+        background-color: black;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        overflow-x: hidden;
+      }
+
+      body::-webkit-scrollbar {
+        display: none;
+      }
+
+      .background{
+    height: 800px;
+    width: 50%;
+    background-image: url(https://wallpapers.com/images/hd/4k-tech-8ud1fgpt22qs67c7.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 2s;
+    width: 105vw;
+    height: 50vh;
+
+    position: relative;
+    left: -2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite; 
+}
+      
+      ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover {
+background-color: #111;
+}
+h1{
+color: aliceblue;
+font-size: 300%;
+}
+h2 {
+  color: aliceblue;
+  font-size: 200%;
+}
+p{
+  color: black;
+  font-size: 100%;
+  line-height: 150%;
+}
+h1 {
+text-shadow: 1px 1px black;
+}
+.intro {
+  background-color: rgba(0, 255, 255, 0.571);
+  width: fit-content;
+  padding: 30px;
+  border-radius: 15px;
+  font-size: 150%;
+  line-height: 120%;
+  margin: 5vh 10vw;
+}
+
+#middle {
+    background-image: url(https://wallpapers.com/images/hd/4k-tech-8ud1fgpt22qs67c7.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 2s;
+    width: 105vw;
+
+    position: relative;
+    left: -2vw;
+    height: fit-content;
+    margin: 10vh 0 -5vh 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  </style>
+
 </head>
 <body>
   <ul><li><a href="homepage.html">Home</a></li> 
@@ -13,64 +135,16 @@
    <li><a href="aboutUs.html">About us</a></li>
 
   </ul>
-<br><br><br>
-    <a href="https://www.youtube.com/watch?v=DENG7Q7VRgo"><button>present technology video</button></a>
-    <style>
-        body {
-          background-image: url(https://guardian.ng/wp-content/uploads/2016/06/device.jpg);
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          text-decoration-color: red;
-          -ms-overflow-style: none;  /* IE and Edge */
-          scrollbar-width: none;  /* Firefox */
-          overflow-x: hidden;
-        }
+  
+<div class="background">
+  <h1>
+      THE PRESENT OF TECHNOLOGY
+  </h1>
+</div>
 
-        body::-webkit-scrollbar {
-          display: none;
-        }
-        
-        ul {
-  position: relative;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  bottom: 10px;
-  left:-7px;
-}
-li {
-  float: left;
-}
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #111;
-}
-  h1{
-color: blue;
-  }
-  p{
-    color: black;
-    font-size: large;
-  }
-  h1 {
-  text-shadow: 2px 2px black;
-}
-#intro {
-    background-color: rgba(0, 255, 255, 0.571);
-    width: fit-content;
-}
-    </style>
 <div align="center">
-    <h1>Technology is one of the biggest things in the world!</h1>
-    <div id="intro"><p>Today people use technology for social media.some social medias include discord, tiktok,<br> snapchat, instagram, etc.
+    <h2>Technology is everywhere!</h2>
+    <div class="intro"><p>Today people use technology for social media.some social medias include discord, tiktok,<br> snapchat, instagram, etc.
     Just over 20 years ago, the dotcom bubble burst, causing the <br> of many tech firms to tumble.
     Many more people are online today than they were at the <br> start of the millennium.
     Similar trends can be seen in cellphone use. At the start of the <br> 2000s, there were 740 million cell phone subscriptions worldwide. Two decades later, <br> that number has surpassed 8 billion, meaning there are now more cellphones in the world than people
@@ -79,20 +153,17 @@ color: blue;
     <p>In the past two decades, tech start-ups have only expanded their climate focus. Many today are focuses <br> on initiatives far beyond clean energy to slow the impact of climate change. (copied from world economic forum)</p>
     </div>
     <div id="middle">
-    <img src="https://www.icreatemagazine.nl/app/uploads/2023/01/chat-gpt-gebruiken.jpg" width="50%">
+    <img src="https://www.icreatemagazine.nl/app/uploads/2023/01/chat-gpt-gebruiken.jpg" height="50%" width="40%" style="margin: 5vh; position: relative; top: 7vh">
+    <div class="intro">
     <p>ChatGPT is a large language model-based chatbot developed by OpenAI and launched on November 30, 2022.ChatGPT was released as a freely available research preview, but due to its popularity, OpenAI now operates the service on a freemium model.</p>
     <p>A new survey from Study.com, an online education resource, found recently that just over one in four out of 200+ K-12 teachers already have caught at least one student cheating using ChatGPT.More districts and individual schools across the globe are limiting or outright banning the use of ChatGPT on school networks and devices amid concerns that it can be used easily to cheat.In another Study.com poll conducted earlier last month, educators were almost evenly split on whether ChatGPT would make their jobs easier or harder. That study also included college professors, who were more concerned about cheating than their K-12 counterparts. About 72% were concerned about AI being used to cheat, compared to 58% of K-12 educators.</p>
     <p>you can read more at <a href="https://www.businessinsider.com/teachers-caught-students-cheating-chatgpt-survey-shows-2023-2">Students Caught Cheating Using ChatGPT <span></span>
-    </div>
-<style>
-  #middle {
-    background-color: rgba(0, 2, 255, 0.571);
-  }
-</style>
-
+  
+  </div>
+  </div>  
 </body>
 </html>
-YouTubeYouTube | Astrolabe
+<!--YouTubeYouTube | Astrolabe
 Past and Present | Technology Then and Now 
 
 (122 kB)

@@ -11,8 +11,13 @@ h2 {
 }
 p{
     padding: 0px 100px 0px 100px;
+    text-align: center;
+    line-height: 150%;
 }
 
+img {
+  margin:  7vh;
+}
 
 body{
     background-color: black;
@@ -52,6 +57,7 @@ img{
 
     display: flex;
     justify-content: center;
+    align-content: center;
 
     animation-name: animate;
     animation-direction: alternate-reverse;
@@ -89,13 +95,16 @@ h1{
 }
 
 ul {
-  position: relative;
+
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    
+    position: absolute;
+      left: 0;
+      top: 0;
+      width: 100vw;
   }
   li {
     float: left;
